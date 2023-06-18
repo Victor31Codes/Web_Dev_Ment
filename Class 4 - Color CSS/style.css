@@ -1,0 +1,40 @@
+img {
+  max-width: 100%;
+}
+body {
+  background-color: 141414;
+  font-family: sans-serif;
+}
+.container {
+  width: 90vw;
+  margin: auto 2rem;
+}
+
+.container .titles {
+  color: salmon;
+}
+
+p {
+  color: eee;
+}
+
+article #uniqueParagraph + img {
+  width: 10rem;
+}
+
+article > p {
+  font-size: 1.5rem;
+}
+
+.square {
+  width: 9rem;
+  height: 9rem;
+  margin-block: 2rem;
+  margin-inline: auto;
+  background-color: rgba(0, 255, 255, 1);
+}
+
+h2 {
+  color: #fa0;
+  font-family: "Kablammo", cursive;
+}
